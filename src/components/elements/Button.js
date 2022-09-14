@@ -1,11 +1,9 @@
 import React from "react";
 
-let content = "Press Me";
-
-const Button = () => {
+const Button = ({ content, classes }) => {
   return (
     <div>
-      <button type="button" class="btn btn-outline-primary">
+      <button type="button" class={classes}>
         {content}
       </button>
     </div>
