@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../elements/Button";
+import Counter from "../elements/Counter";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Button value="Submit" color="primary" size="lg">
           Submit
         </Button>
+        <Counter />
       </div>
     </div>
   );
