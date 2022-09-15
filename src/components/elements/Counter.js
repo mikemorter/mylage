@@ -28,18 +28,21 @@ const Counter = () => {
 
           <span className="counter__output">{counter}</span>
           <br />
-          <div className="btn__container">
-            <button className="btn btn-outline-dark" onClick={increase}>
+          <br />
+          <div className="row justify-content-center">
+            <button
+              className="col-2 btn btn-outline-dark me-2"
+              onClick={increase}
+            >
               +
             </button>
-
-            <button className="btn btn-outline-dark" onClick={decrease}>
+            <button className="col-2 btn btn-outline-dark" onClick={decrease}>
               -
             </button>
-            <br />
           </div>
-          <div>
-            <button className="btn btn-outline-danger" onClick={reset}>
+          <br />
+          <div className="row justify-content-center">
+            <button className="col-3 btn btn-outline-danger" onClick={reset}>
               Reset
             </button>
           </div>
