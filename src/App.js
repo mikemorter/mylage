@@ -1,15 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Button from "./components/elements/Button";
+import Home from "./components/sections/Home";
+import NavBar from "./components/sections/NavBar";
 
 function App() {
   return (
     <div>
-      <header>
-        <Button color="primary" wideMobile>
-          Hello
-        </Button>
-      </header>
+      <NavBar />
+      <Home />
     </div>
   );
 }
