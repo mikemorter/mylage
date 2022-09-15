@@ -6,7 +6,9 @@ function App() {
   return (
     <div>
       <header>
-        <Button content="Hi" classes="btn btn-outline-primary" />
+        <Button color="primary" wideMobile>
+          Hello
+        </Button>
       </header>
     </div>
   );
