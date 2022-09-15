@@ -3,11 +3,13 @@ import Button from "../elements/Button";
 
 const Home = () => {
   return (
-    <div>
-      <p>Home Page</p>
-      <Button value="Submit" color="primary" size="lg" wideMobile>
-        Submit
-      </Button>
+    <div className="container">
+      <div className="row">
+        <p className="col">Home Page</p>
+        <Button value="Submit" color="primary" size="lg">
+          Submit
+        </Button>
+      </div>
     </div>
   );
 };
