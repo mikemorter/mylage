@@ -27,7 +27,7 @@ const NavBar = () => {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Link
+                Trips
               </a>
             </li>
             <li class="nav-item dropdown">
