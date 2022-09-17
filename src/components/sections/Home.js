@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../elements/Button";
 import Card from "../elements/Card";
+import Carousel from "../elements/Carousel";
 import Counter from "../elements/Counter";
 
 const Home = () => {
@@ -38,6 +39,9 @@ const Home = () => {
             />
           </div>
         </div>
+      </div>
+      <div>
+        <Carousel />
       </div>
       <Button value="Submit" color="primary" size="lg">
         Submit
