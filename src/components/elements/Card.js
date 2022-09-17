@@ -1,16 +1,14 @@
 import React from "react";
 
-const Card = () => {
+const Card = ({ banner, title, content, button }) => {
   return (
     <div class="card">
-      <div class="card-header">Featured</div>
+      <div class="card-header">{banner}</div>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
+        <h5 class="card-title">{title}</h5>
+        <p class="card-text">{content}</p>
         <a href="#" class="btn btn-outline-primary">
-          Go somewhere
+          {button}
         </a>
       </div>
     </div>

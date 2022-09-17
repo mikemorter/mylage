@@ -8,16 +8,40 @@ const Home = () => {
     <div className="container">
       <div className="row">
         <p className="col">Home Page</p>
-        <Button value="Submit" color="primary" size="lg">
-          Submit
-        </Button>
         <Counter />
       </div>
-      <div className="row">
-        <div className="col-4">
-          <Card />
+      <br />
+      <div className="container">
+        <div className="row align-items-start">
+          <div className="col">
+            <Card
+              banner="Card 1"
+              title="First Title"
+              content="We are going to have a great day"
+              button="Let's Go"
+            />
+          </div>
+          <div className="col">
+            <Card
+              banner="Card 2"
+              title="Second Title"
+              content="Get this thing going!"
+              button="What"
+            />
+          </div>
+          <div className="col">
+            <Card
+              banner="Card 3"
+              title="Thrid Title"
+              content="What if we do something that we have never done before?"
+              button="Alright"
+            />
+          </div>
         </div>
       </div>
+      <Button value="Submit" color="primary" size="lg">
+        Submit
+      </Button>
     </div>
   );
 };
