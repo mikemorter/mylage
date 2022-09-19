@@ -48,7 +48,7 @@ const propTypes = {
 };
 
 const defaultProps = {
-  tag: "btn",
+  tag: "button",
   color: "",
   size: "",
   loading: false,

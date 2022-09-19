@@ -3,7 +3,7 @@ import Button from "../elements/Button";
 import Card from "../elements/Card";
 import Carousel from "../elements/Carousel";
 import Counter from "../elements/Counter";
-import posts from "../../assets/Dummy";
+import StateSelector from "../elements/StateSelector";
 
 const Home = () => {
   return (
@@ -18,11 +18,7 @@ const Home = () => {
           <div className="col">
             <Card
               banner="Card 1"
-              title={posts.map((post) => {
-                if ((post.id = 1)) {
-                  console.log(post.title);
-                }
-              })}
+              title="First Title"
               content="We are going to have a great day"
               button="Let's Go"
             />
@@ -51,6 +47,7 @@ const Home = () => {
       <Button value="Submit" color="primary" size="lg">
         Submit
       </Button>
+      <StateSelector />
     </div>
   );
 };
