@@ -1,4 +1,7 @@
 import React from "react";
+import skyone from "../../assets/images/sky1.jpeg";
+import skytwo from "../../assets/images/sky2.jpeg";
+import skythree from "../../assets/images/sky3.jpeg";
 
 const Carousel = () => {
   return (
@@ -31,13 +34,13 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={skyone} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={skytwo} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={skythree} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button
