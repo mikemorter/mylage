@@ -15,29 +15,8 @@ const Home = () => {
       <br />
       <div className="container">
         <div className="row align-items-start">
-          <div className="col">
-            <Card
-              banner="Card 1"
-              title="First Title"
-              content="We are going to have a great day"
-              button="Let's Go"
-            />
-          </div>
-          <div className="col">
-            <Card
-              banner="Card 2"
-              title="Second Title"
-              content="Get this thing going!"
-              button="What"
-            />
-          </div>
-          <div className="col">
-            <Card
-              banner="Card 3"
-              title="Thrid Title"
-              content="What if we do something that we have never done before?"
-              button="Alright"
-            />
+          <div className="row">
+            <Card />
           </div>
         </div>
       </div>

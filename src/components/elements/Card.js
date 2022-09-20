@@ -1,16 +1,25 @@
 import React from "react";
+import posts from "../../assets/Dummy";
 
-const Card = ({ banner, title, content, button }) => {
+const Card = () => {
   return (
-    <div className="card">
-      <div className="card-header">{banner}</div>
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{content}</p>
-        <a href="#" className="btn btn-outline-primary">
-          {button}
-        </a>
-      </div>
+    <div className="row">
+      {posts.map((post) => {
+        return (
+          <div className="col-4">
+            <div className="card" value={post.id}>
+              <div className="card-header">Reactions: {post.reactions}</div>
+              <div className="card-body">
+                <h5 className="card-title">{post.title}</h5>
+                <p className="card-text">{post.body}</p>
+                <a href="Home" className="btn btn-outline-primary">
+                  Press
+                </a>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };
