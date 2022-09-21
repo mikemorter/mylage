@@ -4,6 +4,7 @@ import Card from "../elements/Card";
 import Carousel from "../elements/Carousel";
 import Counter from "../elements/Counter";
 import StateSelector from "../elements/StateSelector";
+import Accordian from "../elements/Accordian";
 
 const Home = () => {
   return (
@@ -27,6 +28,9 @@ const Home = () => {
         Submit
       </Button>
       <StateSelector />
+      <div>
+        <Accordian />
+      </div>
     </div>
   );
 };
