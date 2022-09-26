@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 
-const Counter = () => {
+const Counter = ({ title }) => {
   const [counter, setCounter] = useState(0);
 
   //increase counter
@@ -23,8 +23,8 @@ const Counter = () => {
   return (
     <div className="container text-center">
       <div className="row justify-content-center">
-        <div className="col-4 align-items-center">
-          <h1>Counter</h1>
+        <div className="col align-items-center">
+          <h1>{title}</h1>
 
           <span className="counter__output">{counter}</span>
           <br />

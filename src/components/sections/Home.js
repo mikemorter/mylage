@@ -11,7 +11,18 @@ const Home = () => {
     <div className="container">
       <div className="row">
         <p className="col">Home Page</p>
-        <Counter />
+        <div className="row">
+          <div className="col">
+            <Counter title="Team 1" />
+          </div>
+          <div className="col">
+            <Counter title="Team 2" />
+          </div>
+        </div>
+      </div>
+      <br />
+      <div>
+        <Carousel />
       </div>
       <br />
       <div className="container">
@@ -21,14 +32,18 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <br />
       <div>
-        <Carousel />
+        <Button value="Submit" color="primary" size="lg">
+          Submit
+        </Button>
       </div>
-      <Button value="Submit" color="primary" size="lg">
-        Submit
-      </Button>
-      <StateSelector />
+      <br />
       <div>
+        <StateSelector />
+      </div>
+
+      <div className="col-4">
         <Accordian />
       </div>
     </div>
