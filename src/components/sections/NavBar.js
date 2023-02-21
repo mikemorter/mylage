@@ -4,13 +4,7 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <a
-          className="navbar-brand"
-          href="#
-        "
-        >
-          Mylage
-        </a>
+        <a className="navbar-brand" href="/">Mylage</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -25,14 +19,10 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
-                Home
-              </a>
+              <a className="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/trips">
-                Trips
-              </a>
+              <a className="nav-link" href="/trips">Trips</a>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -46,14 +36,10 @@ const NavBar = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="/blog1">
-                    Blog 1
-                  </a>
+                  <a className="dropdown-item" href="/blog1">Blog 1</a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/blog2">
-                    Blog 2
-                  </a>
+                  <a className="dropdown-item" href="/blog2">Blog 2</a>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />

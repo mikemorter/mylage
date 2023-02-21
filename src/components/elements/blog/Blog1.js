@@ -10,6 +10,9 @@ function Blog1() {
     <div className="container">
       <div className="row">
         <BlogTemplate title={title} body={body} />
+        <div className='img'>
+          <img src={faker.image.business()} />
+        </div>
       </div>
     </div>
   )
