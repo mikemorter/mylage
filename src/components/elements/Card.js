@@ -7,7 +7,7 @@ const Card = () => {
       {posts.map((post) => {
         return (
           <div className="col-4">
-            <div className="card" value={post.id}>
+            <div className="card" value={post.id} key={post.id}>
               <div className="card-header">Reactions: {post.reactions}</div>
               <div className="card-body">
                 <h5 className="card-title">{post.title}</h5>

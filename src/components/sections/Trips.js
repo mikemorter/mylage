@@ -2,8 +2,10 @@ import React from 'react';
 
 function Trips() {
   return (
-    <div>
-      <h1>Trips Woo</h1>
+    <div className="container">
+      <div className="row">
+        <h1>Trips Woo</h1>
+      </div>
     </div>
   )
 }
