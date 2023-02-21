@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="row">
-        <p className="col">Home Page</p>
+        <p className="col">Home</p>
         <div className="row">
           <div className="col">
             <Counter title="Team 1" />
