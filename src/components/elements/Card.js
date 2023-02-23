@@ -12,7 +12,7 @@ const Card = () => {
               <div className="card-body">
                 <h5 className="card-title">{post.title}</h5>
                 <p className="card-text">{post.body}</p>
-                <a href={`/reaction/${post.id}`} className="btn btn-outline-primary">
+                <a href={`/thoughts/${post.id}`} className="btn btn-outline-primary">
                   Post
                 </a>
               </div>

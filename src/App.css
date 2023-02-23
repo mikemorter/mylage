@@ -59,3 +59,8 @@
 .map-container {
   height: 400px;
 }
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
