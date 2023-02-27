@@ -7,6 +7,7 @@ import Blog2 from '../elements/blog/Blog2';
 import Reaction from '../elements/Reaction';
 import Map from '../elements/Map';
 import Thoughts from './Thoughts';
+import Upload from './Upload';
 
 function AppRoutes() {
   return (
@@ -18,6 +19,7 @@ function AppRoutes() {
         <Route exact path="/thoughts/:id" element={<Reaction />} />
         <Route exaxt path="/map" element={<Map />} />
         <Route exact path="/thoughts" element={<Thoughts />} />
+        <Route exact path="/upload" element={<Upload />} />
       </Routes>
   )
 }
