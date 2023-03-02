@@ -8,6 +8,7 @@ import Reaction from '../elements/Reaction';
 import Map from '../elements/Map';
 import Thoughts from './Thoughts';
 import Upload from './Upload';
+import Counters from './Counter';
 
 function AppRoutes() {
   return (
@@ -20,6 +21,7 @@ function AppRoutes() {
         <Route exaxt path="/map" element={<Map />} />
         <Route exact path="/thoughts" element={<Thoughts />} />
         <Route exact path="/upload" element={<Upload />} />
+        <Route exact path="/Counter" element={<Counters />} />
       </Routes>
   )
 }

@@ -11,12 +11,7 @@ const Home = () => {
       <div className="row">
         <p className="col">Home</p>
         <div className="row">
-          <div className="col">
-            <Counter title="Team 1" />
-          </div>
-          <div className="col">
-            <Counter title="Team 2" />
-          </div>
+
         </div>
       </div>
       <br />

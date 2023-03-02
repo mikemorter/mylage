@@ -33,6 +33,9 @@ const NavBar = () => {
             <li className="nav-item">
               <a className="nav-link" href="/upload">Upload</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/counter">Counter</a>
+            </li>
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
